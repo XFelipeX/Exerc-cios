@@ -1,0 +1,27 @@
+package listaswitch;
+import java.util.Scanner;
+public class exercicio6 {
+	public static void main (String[] args){
+		Scanner entrada = new Scanner(System.in);
+		System.out.print("Informe um dia:");
+		String A = entrada.next();
+		switch (A) {
+		case "1":
+		case "7":
+			System.out.println("Fim de semana!");
+			break;
+		case "2":
+		case "3":
+		case "4":
+		case "5":
+		case "6":
+			System.out.println("Dia da semana!");
+			break;
+		default :
+			System.out.println("Dia inválido!");
+			
+		}
+		
+	}
+
+}
